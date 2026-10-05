@@ -1,0 +1,29 @@
+{
+  "name": "ai-dataset-change-passport-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beginner-friendly REST API for AI Dataset Change Passport",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "exceljs": "^4.4.0",
+    "multer": "^2.0.2",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
